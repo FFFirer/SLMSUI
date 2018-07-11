@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>模态框测试</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/3.1.1/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- 下面添加自定义样式表 -->
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <p>
+                <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myDetail">新增分拣线信息</button>
+                <button type="button" class="btn btn-primary btn-sm">筛选</button>
+                <button type="button" class="btn btn-danger btn-sm">删除选中分拣线信息</button>
+            </p>
+            <!-- 详细信息模态框 -->
+            <div class="modal fade" id="myDetail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel">模态框（Modal）标题</h4>
+                        </div>
+                        <div class="modal-body">
+                            在这里添加一些文本
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                            <button type="button" class="btn btn-primary">提交更改</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 提示删除模态框 -->
+
+            <!-- 筛选列表模态框 -->
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
