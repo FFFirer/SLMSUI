@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的站点</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/3.1.1/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- 下面添加自定义样式表 -->
+    <!-- <script src="HandleJs/GetClickLine.js"></script> -->
+    <script src="../HandleJs/RemoveSortingLine.js"></script>
+    <script src="../HandleJs/SelectAll.js"></script>
+    <script src="../HandleJs/DeleteSelected.js"></script>
+</head>
+
+
+<!-- <nav class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#">分拣线管理系统</a>
+    </div>
+    <ul class="nav navbar-nav">
+        <li class="active">
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">Link</a>
+        </li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                项目管理
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="#">分拣线信息</a>
+                </li>
+                <li>
+                    <a href="#">备料信息</a>
+                </li>
+                <li>
+                    <a href="#">发货信息</a>
+                </li>
+                <li>
+                    <a href="#">收货信息</a>
+                </li>
+                <li>
+                    <a href="#">安装信息</a>
+                </li>
+                <li>
+                    <a href="#">检验信息</a>
+                </li>
+                <li>
+                    <a href="#">调试信息</a>
+                </li>
+                <li>
+                    <a href="#">保养信息</a>
+                </li>
+                <li>
+                    <a href="#">故障信息</a>
+                </li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                基础信息
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="#">客户信息</a>
+                </li>
+                <li>
+                    <a href="#">保养计划</a>
+                </li>
+                <li>
+                    <a href="#">物料信息</a>
+                </li>
+                <li>
+                    <a href="#">员工信息</a>
+                </li>
+                <li>
+                    <a href="#">流程定义</a>
+                </li>
+                <li>
+                    <a href="#">分拣中心信息</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</nav> -->
+
+
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+
+        <div class="navbar-header">
+            <a class="navbar-brand" style="font-size: 24px" href="#">分拣线管理系统</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a href="#">
+                    <span class="glyphicon glyphicon-user"></span>&nbsp;用户名</a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="glyphicon glyphicon-log-out"></span>&nbsp;登出</a>
+            </li>
+        </ul>
+    </div>
+
+</nav>
+
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h4>
+                    <b>流程管理</b>
+                </h4>
+            </div>
+            <div class="col-xs-6 col-md-3 ">
+                <a style="padding: 5px" href="#">分拣线信息</a>
+            </div>
+            <div class="col-xs-6 col-md-3 ">
+                <a style="padding: 5px" href="#">备料信息</a>
+            </div>
+            <div class="col-xs-6 col-md-3 ">
+                <a style="padding: 5px" href="#">发货信息</a>
+            </div>
+            <div class="col-xs-6 col-md-3 ">
+                <a style="padding: 5px" href="#">收货信息</a>
+                </li>
+            </div>
+            <div class="col-xs-6 col-md-3 ">
+                <a style="padding: 5px" href="#">安装信息</a>
+            </div>
+            <div class="col-xs-6 col-md-3 ">
+                <a style="padding: 5px" href="#">检验信息</a>
+            </div>
+            <div class="col-xs-6 col-md-3 ">
+                <a style="padding: 5px" href="#">调试信息</a>
+            </div>
+            <div class="col-xs-6 col-md-3 ">
+                <a style="padding: 5px" style="padding: 5px" href="#">保养信息</a>
+            </div>
+            <div class="col-xs-6 col-md-3 ">
+                <a style="padding: 5px" href="#">故障信息</a>
+            </div>
+            <div class="col-xs-6 col-md-3 ">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <h4>
+                    <b>基本资料</b>
+                </h4>
+            </div>
+            <div class="col-xs-6 col-md-3 ">
+                <a style="padding: 5px" href="#">客户信息</a>
+            </div>
+            <div class="col-xs-6 col-md-3 ">
+                <a style="padding: 5px" href="#">保养计划</a>
+            </div>
+            <div class="col-xs-6 col-md-3 ">
+                <a style="padding: 5px" href="#">物料信息</a>
+            </div>
+            <div class="col-xs-6 col-md-3 ">
+                <a style="padding: 5px" href="#">员工信息</a>
+            </div>
+            <div class="col-xs-6 col-md-3 ">
+                <a style="padding: 5px" href="#">流程定义</a>
+            </div>
+            <div class="col-xs-6 col-md-3 ">
+                <a style="padding: 5px" href="#">分拣中心信息</a>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
