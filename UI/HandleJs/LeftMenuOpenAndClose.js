@@ -1,0 +1,16 @@
+$(document).ready(function(){
+    $(".panel-body").click(function(){
+        if($(this).hasClass("in")){
+            $(this).removeClass("in");
+        }
+        else{
+            $(this).siblings().each(function(){
+                $(this).removeClass("in");
+            });
+            $(this).addClass("in");
+        }
+    });
+});
+/*
+jquery-确保每次只打开一个
+*/
